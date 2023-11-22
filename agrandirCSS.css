@@ -1,0 +1,23 @@
+/* Style de base pour l'image */
+.img-container {
+    width: 200px; /* Largeur initiale de l'image */
+    height: 200px; /* Hauteur initiale de l'image */
+    overflow: hidden; /* Masquer toute partie de l'image qui dépasse les dimensions définies */
+  }
+  
+  /* Lorsque l'utilisateur survole l'image, appliquer une transformation pour agrandir l'image */
+  .img-container:hover img {
+    transform: scale(1.5); /* Facteur d'échelle (ajuster selon vos besoins) */
+    transition: transform 0.3s ease; /* Ajouter une transition pour une animation plus fluide */
+  }
+  .picture {
+    width: 200px; /* Largeur initiale de l'image */
+    height: 200px; /* Hauteur initiale de l'image */
+    overflow: hidden; /* Masquer toute partie de l'image qui dépasse les dimensions définies */
+  }
+  
+  /* Lorsque l'utilisateur survole l'image, appliquer une transformation pour agrandir l'image */
+  .picture:hover img {
+    transform: scale(1.5); /* Facteur d'échelle (ajuster selon vos besoins) */
+    transition: transform 0.3s ease; /* Ajouter une transition pour une animation plus fluide */
+  }
